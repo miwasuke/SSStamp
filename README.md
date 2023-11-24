@@ -6,6 +6,22 @@
 # ファイル構造
 ```
 SSStamp
- ├terraform/
+ ├ terraform/
  └ html/
+```
+# 開発
+## terraform
+terraformディレクトリに移動し、修正
+```shell
+cd terraform
+terraform init
+terraform plan
+terraform apply
+```
+
+## html
+awscliのためのアクセスキーはよしなに
+```shell
+cd html
+aws s3 sync . s3://my-bucket/miwasuke-ssstamp
 ```
