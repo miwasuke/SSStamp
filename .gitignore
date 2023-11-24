@@ -9,3 +9,6 @@
 
 /terraform/.terraform/
 /terraform/.terraform.lock.hcl
+
+.idea
+SSStamp.iml
