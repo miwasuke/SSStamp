@@ -23,5 +23,5 @@ terraform apply
 awscliのためのアクセスキーはよしなに
 ```shell
 cd html
-aws s3 sync . s3://my-bucket/miwasuke-ssstamp
+aws s3 sync . s3://miwasuke-ssstamp
 ```
