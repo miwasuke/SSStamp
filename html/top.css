@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 20%; /* 各セルの横幅を20%に設定 */
+    height: 0;
+    padding-bottom: 20%; /* 各セルの高さを横幅の20%に設定 */
+    position: relative;
+}
